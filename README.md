@@ -1,5 +1,4 @@
 # Entrega1
 
 El link para abrir la página desplegada en GithubPages es
-https://jamorales11.github.io/Entrega1/
-
+https://jamorales11.github.io/Entrega1/dist/index.html
