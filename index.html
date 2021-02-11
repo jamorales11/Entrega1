@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ejercicio HTML</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Julio Alejandro Morales Buitrago</h1>
+      <img src="./Assets/DSC_1384.JPG" width="200" height="300" />
+    </header>
+
+    <nav>
+      <u1>
+        <li><a href="#bienvenida">Mensaje de bienvenida</a></li>
+        <li><a href="#biograficos">Datos biográficos</a></li>
+        <li><a href="#academicos">Datos académicos</a></li>
+        <li><a href="#interes">Sitios de interés</a></li>
+        <li><a href="#contacto">Formulario de contacto</a></li>
+        <li><a href="#redes">Redes Sociales</a></li>
+      </u1>
+    </nav>
+
+    <main>
+      <section>
+        <h2 id="bienvenida">Mensaje de bienvenida</h2>
+        <p>
+          Te doy la bienvenida a mi página personal. A continuación podrás
+          observar datos biográficos, académicos y algunos de mis sitios de
+          interés. También podrás encontrar un formulario por si deseas
+          contactarme y al final podrás ver algunas de mis redes sociales.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="biograficos">Datos biográficos como tabla</h2>
+        <table>
+          <tr>
+            <th>Fecha de nacimiento</th>
+            <td>11 de abril de 1996</td>
+          </tr>
+          <tr>
+            <th>Edad</th>
+            <td>24 años</td>
+          </tr>
+          <tr>
+            <th>Ciudades dónde he vivido</th>
+            <td>Bogotá DC</td>
+            <td>Bucaramanga</td>
+            <td>Medellín</td>
+            <td>Washington DC</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2 id="academicos">Datos académicos como listas</h2>
+
+        <ul>
+          <li>Colegios en los que estudié</li>
+          <ul>
+            <li>Colegio Colombo-Americano, Bogotá DC, 2005</li>
+            <li>Gimnasio Saucará, Bucaramanga, 2006</li>
+            <li>San Ignacio de Loyola, Medellín, 2007-2009</li>
+            <li>San Bartolomé La Merced, Bogotá DC, 2010-2013</li>
+          </ul>
+          <li>Universidad</li>
+          <ul>
+            <li>Universidad de Los Andes, Bogotá DC, 2013-Actualidad</li>
+            <ul>
+              <li>
+                Comencé estudiando Ingeniería Industrial hasta el año 2018
+              </li>
+              <li>
+                Estuve en un retiro voluntario durante año y medio debido a que
+                viví en el exterior debido al trabajo de mi papá
+              </li>
+              <li>
+                En 2018 decidí solicitar transferencia interna a Ingeniería de
+                Sistemas
+              </li>
+            </ul>
+          </ul>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="interes">Sitios de interés</h2>
+
+        <h3>Videos favoritos</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/iqcjpwAHsTQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/c3pU0VqEFVs"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <h3>Canales de Twitch favoritos</h3>
+        <ul>
+          <li>
+            <a href="https://www.twitch.tv/sovietwomble">SovietWomble </a>
+          </li>
+          <li><a href="https://www.twitch.tv/esl_csgo">ESL_CSGO </a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="contacto">Formulario de contacto</h2>
+        <form>
+          <fieldset>
+            <p>
+              <label>Nombre</label>
+              <input type="text" value="" />
+            </p>
+            <p>
+              <label>Correo</label>
+              <input type="text" value="" />
+            </p>
+            <p>
+              <label>Mensaje</label>
+              <input size="250" type="text" value="" />
+            </p>
+            <p>
+              <button>Enviar</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h2 id="redes">Redes Sociales</h2>
+      <ul>
+        <li>
+          <a href="https://twitter.com/julioamoraless">Twitter </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/juliomorales96/">Instagram </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
