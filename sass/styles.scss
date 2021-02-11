@@ -1,10 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-section > img{
+section > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -16,7 +16,7 @@ $grid-breakpoints: (
   lg: 992px,
 );
 
-.header{
+.header {
   padding: 60px;
   text-align: center;
   background: #1429c5;
@@ -24,7 +24,7 @@ $grid-breakpoints: (
   font-size: 30px;
 }
 
-.footer{
+.footer {
   padding: 60px;
   text-align: center;
   background: #1429c5;
@@ -38,7 +38,7 @@ $grid-breakpoints: (
   margin-top: 10px;
 }
 
-.iframe-container{
+.iframe-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
