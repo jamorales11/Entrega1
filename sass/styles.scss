@@ -1,0 +1,45 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1{
+    text-align: center;
+}
+
+section > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+$grid-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+);
+
+.header{
+  padding: 60px;
+  text-align: center;
+  background: #1429c5;
+  color: white;
+  font-size: 30px;
+}
+
+.footer{
+  padding: 60px;
+  text-align: center;
+  background: #1429c5;
+  color: white;
+  font-size: 30px;
+}
+
+.nav {
+  background-color: #e3f2fd;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.iframe-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
