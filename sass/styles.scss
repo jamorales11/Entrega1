@@ -32,6 +32,11 @@ $grid-breakpoints: (
   font-size: 30px;
 }
 
+//Hay que quitarle la decoración a la lista, ya que según la clase .footer del scss todo está centrado, pero la decoración por defecto no se centra
+.footer ul{
+  list-style: none;
+}
+
 .nav {
   background-color: #e3f2fd;
   margin-bottom: 10px;
